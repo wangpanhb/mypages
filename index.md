@@ -2,17 +2,25 @@
 　　layout: default
 　　title: 我的Blog
 ---
+# 一、不积跬步,无以至千里
+***sdf***
 
-　　<h2>{{ page.title }}</h2>
+*这是加粗的文字*`
 
-　　<p>最新文章</p>
+~~sdf~~
 
-　　<ul>
+# sdfs
+>>>>>>>>>>这是引用的内容
 
-　　　　{% for post in site.posts %}
+---
+----
+***
+*****
+![sdfasfd](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+[**简书**](http://jianshu.com)
 
-　　　　{% endfor %}
-
-　　</ul>
+- 一级无序列表内容
+- sdf
+- sdfsdf
+   - sdf
